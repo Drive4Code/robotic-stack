@@ -1,0 +1,9 @@
+# Example .cargo/config.toml
+# The index needs to point to the host where your Kellnr instance runs
+# The token is the authentication token for the user configured in Kellnr
+[registries]
+ap = { index = "http://advancedprogramming.disi.unitn.it:8000/", token = "59e3e22a5f63814446c6feb5cfa90b1b" }
+# ATTENTION: Per default the port 9418 is assumed. If you used the Helm Chart or other Kubernetes deployment, the port is 30418 and needs to be set.
+# E.g.: kellnr = { index = "git://yourkellnrhostname:30418/index", token = "yourauthtoken" }
+ 
+
